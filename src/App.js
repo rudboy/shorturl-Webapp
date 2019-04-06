@@ -17,7 +17,7 @@ class App extends Component {
     try {
       if (validUrl.isUri(this.state.url)) {
         const response = await axios.get(
-          "http://localhost:5500/creat_url?url=" + this.state.url
+          "https://shorturl-server.herokuapp.com/creat_url?url=" + this.state.url
         );
         console.log(response.data);
         if (response.data.message === "Created okay") {
@@ -37,7 +37,7 @@ class App extends Component {
 
   getAllurl = async () => {
     try {
-      const response = await axios.get("http://localhost:5500/all_url");
+      const response = await axios.get("https://shorturl-server.herokuapp.com/all_url");
 
       // Va déclencher un nouveau render
       this.setState({
@@ -54,7 +54,7 @@ class App extends Component {
   getOGurl = async url => {
     try {
       const response = await axios.get(
-        "http://localhost:5500/found_url?url=" + url
+        "https://shorturl-server.herokuapp.com/found_url?url=" + url
       );
 
       // Va déclencher un nouveau render
