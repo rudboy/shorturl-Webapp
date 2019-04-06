@@ -9,6 +9,7 @@ input {
   width: 800px;
   font-size: 20px;
   color: grey;
+  margin-bottom:20px;
 }
 .col1 {
   padding-top: 10px;
