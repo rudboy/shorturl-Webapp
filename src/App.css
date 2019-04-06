@@ -68,6 +68,8 @@ input {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid grey;
+  width: 900px;
+
 
 }
 .urlButton {
