@@ -36,18 +36,24 @@ input {
   height: 30px;
   width: 300px;
   color: rgb(0, 157, 255);
+  border-bottom: 1px solid grey;
+
 }
 .nw {
   padding-top: 10px;
   height: 30px;
   width: 500px;
   color: rgb(0, 157, 255);
+  border-bottom: 1px solid grey;
+
 }
 .visite {
   padding-top: 10px;
   height: 30px;
   color: rgb(62, 60, 60);
   width: 100px;
+  border-bottom: 1px solid grey;
+
 }
 
 .tab {
@@ -67,10 +73,6 @@ input {
   height: 40px;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid grey;
-  width: 900px;
-
-
 }
 .urlButton {
   border-radius: 3px;
