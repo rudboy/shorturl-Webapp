@@ -1,33 +1,90 @@
 .App {
   text-align: center;
+  background-color: "white";
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+input {
+  border-radius: 3px;
+  height: 30px;
+  width: 800px;
+  font-size: 20px;
+  color: grey;
+}
+.col1 {
+  padding-top: 10px;
+  height: 30px;
+  color: rgb(62, 60, 60);
+  width: 400px;
+  background-color: rgb(223, 217, 217);
+}
+.col2 {
+  padding-top: 10px;
+  height: 30px;
+  color: rgb(62, 60, 60);
+  width: 400px;
+  background-color: rgb(223, 217, 217);
+}
+.col3 {
+  padding-top: 10px;
+  height: 30px;
+  color: rgb(62, 60, 60);
+  width: 100px;
+  background-color: rgb(223, 217, 217);
+}
+.og {
+  padding-top: 10px;
+  height: 30px;
+  width: 400px;
+  color: rgb(0, 157, 255);
+}
+.nw {
+  padding-top: 10px;
+  height: 30px;
+  width: 400px;
+  color: rgb(0, 157, 255);
+}
+.visite {
+  padding-top: 10px;
+  height: 30px;
+  color: rgb(62, 60, 60);
+  width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.tab {
+  height: 40px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  flex-direction: row;
+}
+.tab2 {
+  display: flex;
+  flex-direction: column;
+}
+.tableau {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.urlButton {
+  border-radius: 3px;
+  height: 35px;
+  width: 130px;
+  margin-left: 20px;
+  color: #5659c4;
+  font-weight: 700;
+  font-size: 13px;
+}
+.App-header {
+  background-color: #5659c4;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */ /* justify-content: center; */
+  font-size: 40px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-bottom: 50px;
 }
