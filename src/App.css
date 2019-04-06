@@ -14,14 +14,14 @@ input {
   padding-top: 10px;
   height: 30px;
   color: rgb(62, 60, 60);
-  width: 400px;
+  width: 300px;
   background-color: rgb(223, 217, 217);
 }
 .col2 {
   padding-top: 10px;
   height: 30px;
   color: rgb(62, 60, 60);
-  width: 400px;
+  width: 500px;
   background-color: rgb(223, 217, 217);
 }
 .col3 {
@@ -34,13 +34,13 @@ input {
 .og {
   padding-top: 10px;
   height: 30px;
-  width: 400px;
+  width: 300px;
   color: rgb(0, 157, 255);
 }
 .nw {
   padding-top: 10px;
   height: 30px;
-  width: 400px;
+  width: 500px;
   color: rgb(0, 157, 255);
 }
 .visite {
@@ -60,6 +60,7 @@ input {
 .tab2 {
   display: flex;
   flex-direction: column;
+  border-bottom: 3px solid grey;
 }
 .tableau {
   display: flex;
