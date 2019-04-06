@@ -60,7 +60,6 @@ input {
 .tab2 {
   display: flex;
   flex-direction: column;
-  border-bottom: 3px solid grey;
 }
 .tableau {
   display: flex;
@@ -68,6 +67,8 @@ input {
   height: 40px;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid grey;
+
 }
 .urlButton {
   border-radius: 3px;
